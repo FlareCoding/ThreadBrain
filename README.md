@@ -1,14 +1,14 @@
 # ThreadBrain
 Single header library to help with scheduling, running, and controlling tasks in a separate thread
 
-** Usage: **
+**Usage:**
 
 `TB_Thread* threadHandle; // handle to the thread `  
 `TB::StartTask(TaskToExecute, false, &handle); // Starts execution of the task in another thread`  
 Second parameter of StartTask function tells whether or not task should be repetitively  
 executed in a loop. If it is false, then the task is executed only once.  
 
-** If you start executing the task in a loop: **  
+**If you start executing the task in a loop:**  
 If the second parameter of StartTask is true, then the task will be executed repetitively  
 in a while loop. To control the thread's activity you can send "TB_Notification"s to the thread:  
 `handle->Notify(TB_PAUSE_NOTIFY); // pauses thread activity until resumed `  

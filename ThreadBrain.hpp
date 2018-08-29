@@ -1,7 +1,6 @@
 /*
 *
-*	Created on 25th of August, 2018
-*	Copyright (c) by Albert Slepak. All rights reserved.
+*	Created by Albert Slepak on 25th of August, 2018
 *
 */
 
